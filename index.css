@@ -1,0 +1,375 @@
+body{
+    margin: 0%;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding-bottom: 100px;
+    
+}
+
+
+
+div img{
+    margin: 10px;
+}
+
+ #logo1{
+    width: 25%;
+    display:inline-block;
+    padding-left: 120px;
+
+}
+
+
+
+ul{
+    display:initial;
+    list-style: none;
+    
+    float: right;
+    padding-right: 150px;
+    margin-top:-42px;
+} 
+
+li{
+    display: inline-block;
+    font-size: 15px;
+
+    text-decoration: none;
+    font-family: Arial;
+    
+}
+
+li a{
+    text-decoration-line: none;
+    color:rgb(26, 13, 13);
+    padding-left: 15px;
+}
+
+li a:hover{
+    color: rgb(55, 192, 226)
+}
+
+
+/* Banner */
+
+.banner {
+    
+    margin-top: 80px;
+    height: 450px;
+
+    padding:0;
+    margin-right:120px;
+    position: relative;
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:600px;
+    transition:all .9s ease-in;
+
+    background-image: url(img/IMG-20210725-WA0014.jpg);
+    animation: banner 28s infinite linear;
+
+}
+
+.banner-content{
+    margin: 0;
+    
+    width: 100%;
+    height: 100%;
+    color: rgb(55, 192, 226);
+    
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    position: relative;
+    margin-top: -450px;
+}
+
+.banner-content h1{
+    padding-left:125px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+    
+}
+
+.banner-content p{
+    font-family: Arial;
+    font-size:18px;
+    padding-left: 120px;
+    color: #333;
+}
+
+.banner-content a{
+    margin-left: 120px;
+    text-decoration: none;
+    border: 1px solid rgb(131, 203, 245) ;
+    border-radius: 20px;
+    color:rgb(45, 166, 236);
+    padding: 9px 20px;
+    text-decoration-line: none;
+
+    text-transform: uppercase;
+    transition: all .2s ease-in;
+}
+
+.banner-content a:hover {
+    background-color: rgb(43, 128, 238);
+    color: #333;
+    
+}
+
+@keyframes banner{
+    0%{
+        background-image: url(/img/IMG-20210725-WA0014.jpg);
+    }
+    34%{
+        background-image: url(/img/IMG-20210725-WA0014.jpg);
+    }
+    35%{
+        background-image: url(/img/IMG-20210725-WA0008.jpg);
+    }
+    60%{
+        background-image: url(/img/IMG-20210725-WA0008.jpg);
+    }
+    61%{
+        background-image: url(/img/IMG-20210725-WA0009.jpg);
+    }
+    74%{
+        background-image: url(/img/IMG-20210725-WA0009.jpg);
+    }
+    75%{
+        background-image: url(/img/IMG-20210725-WA0006.jpg);
+    }
+    82%{
+        background-image: url(/img/IMG-20210725-WA0006.jpg);
+    }
+    83%{
+        background-image: url(/img/IMG-20210723-WA0046.jpg);
+    }
+    90%{
+        background-image: url(/img/IMG-20210723-WA0046.jpg);
+    }
+    91%{
+        background-image: url(/img/IMG-20210725-WA0004.jpg);
+    }
+    100%{
+        background-image: url(/img/IMG-20210725-WA0004.jpg);
+    }
+}
+
+h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(45, 166, 236);
+    padding-top: 80px;
+}
+
+/* Productos */
+
+.productos{
+    margin-right: 90px;
+    margin-left: 110px;
+    columns: 3;
+}
+
+.productos article{
+    height: 580px;
+}
+
+.productos article p{
+    font-size: 20px;
+}
+
+.productos article img{
+    width: 90%;
+    margin: 0%;
+}
+
+.productos article a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.productos article .ver-mas{
+        margin-left: 10px;
+
+        border: rgb(131, 203, 245) ;
+        border-radius: 20px;
+        color:rgb(45, 166, 236);
+        padding: 5px 15px;
+        text-decoration-line: none;
+    
+        text-transform: uppercase;
+        transition: all .2s ease-in;
+    }
+
+.productos article .ver-mas:hover{
+    background-color: rgb(43, 128, 238);
+    color: #333;
+    
+}    
+
+footer{
+    font-size: 8px;
+    margin-bottom: -10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 120px;
+    background-color: rgb(26, 13, 13);
+}
+
+#ramiro{
+    float: right;
+    color: rgb(55, 192, 226);
+}
+
+#insumos{
+    padding-left: 20px;
+    color: rgb(55, 192, 226);
+}
+
+
+
+/* Reponsive desing */
+
+@media screen and (max-width:476px) {
+    body{
+        
+        margin: 0;
+        padding: 0;
+       
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #logo1{
+        margin-left: -100px;
+        width: 120px;
+    }
+    #logo2{
+        width: 80px;
+    }
+    nav{
+        position: relative;
+    }
+    nav ul{
+        
+        display: inline-flex;
+        margin-left: -10px;
+        margin-top: 20px;
+        margin-right: -40px;
+        
+    }
+    nav ul li a{
+        font-size: 10px;
+        text-decoration: none;
+        color:rgb(26, 13, 13);
+    }
+
+
+    .banner{
+        
+        width: 100%;
+        height: 300px;
+        margin-top: -35px;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position:12px;
+        transition:all .9s ease-in;
+    }
+
+    .banner-content{
+        
+        
+        color: rgb(55, 192, 226);
+        margin-top: 10px;
+    }
+    .banner-content h1{
+        padding-left: 120px;
+        font-size: 15px;
+        text-align: center;
+    } 
+    .banner-content p{
+        padding-left: 80px;
+
+        font-size:10px;
+        color: #333;
+    }
+    .banner-content a{
+        font-size: 10px;
+        margin-left: 180px;
+        text-decoration: none;
+        border: 1px solid rgb(131, 203, 245) ;
+        border-radius: 20px;
+        color:rgb(45, 166, 236);
+        padding: 2px 6px;
+    
+        text-transform: uppercase;
+        transition: all .2s ease-in;
+    }
+    
+    .banner-content a:hover {
+        background-color: rgb(43, 128, 238);
+        color: #333;  
+    }
+    h2{
+    
+        font-size: 15px;
+        color: rgb(45, 166, 236);
+        padding-top: 20px;
+        
+        padding-right: 20px;
+    }
+    .productos{
+        
+        padding-left: 5px;
+        padding-right: 10px;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 20px;
+          
+    }
+    .productos article{
+        height: 240px;
+    
+    }
+    .productos article p{
+        font-size: 8px;
+    }
+   
+    .productos article a{
+        
+        font-size: 6px;
+        text-decoration: none;
+    }
+    footer{
+       
+        
+        width: 100%;
+        margin-top: 10px;
+        background-color: rgb(26, 13, 13);
+    }
+    
+    #ramiro{
+        float:inline-end;
+        font-size: 6px;
+       
+        color: rgb(55, 192, 226);
+        padding-right: 180px;
+    }
+    
+    #insumos{
+        margin-left: 20px;
+        font-size: 6px;
+        padding-left: 100px;
+        color: rgb(55, 192, 226);
+    }
+}

@@ -1,0 +1,219 @@
+body{
+    margin: 0%;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding-bottom: 100px;
+    
+}
+
+
+
+div img{
+    margin: 10px;
+}
+
+ #logo1{
+    width: 25%;
+    display:inline-block;
+    padding-left: 120px;
+
+}
+
+
+
+ul{
+    display:initial;
+    list-style: none;
+    
+    float: right;
+    padding-right: 150px;
+    margin-top:-42px;
+} 
+
+li{
+    display: inline-block;
+    font-size: 15px;
+
+    text-decoration: none;
+    font-family: Arial;
+    
+}
+
+li a{
+    text-decoration-line: none;
+    color:rgb(26, 13, 13);
+    padding-left: 15px;
+}
+
+li a:hover{
+    color: rgb(55, 192, 226)
+}
+
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(45, 166, 236);
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin: 40px;
+}
+
+/* Productos */
+
+.productos{
+    margin-right: 100px;
+    margin-left: 100px;
+    columns: 3;
+}
+
+.productos article{
+    height: 580px;
+}
+
+.productos article p{
+    font-size: 20px;
+}
+
+.productos article img{
+    margin-bottom:20px;
+    width: 90%;
+    margin: 0%;
+}
+
+.productos article a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.productos article .ver-mas{
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+        border: rgb(131, 203, 245) ;
+        border-radius: 20px;
+        color:rgb(45, 166, 236);
+        padding: 5px 15px;
+        text-decoration-line: none;
+    
+        text-transform: uppercase;
+        transition: all .2s ease-in;
+    }
+
+.productos article .ver-mas:hover{
+    background-color: rgb(43, 128, 238);
+    color: #333;
+    
+} 
+
+footer{
+    margin-bottom: -10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(26, 13, 13);
+}
+
+#ramiro{
+    float: right;
+    color: rgb(55, 192, 226);
+}
+
+#insumos{
+    padding-left: 20px;
+    color: rgb(55, 192, 226);
+}
+
+/* Responsive desing */
+
+@media screen and (max-width:476px) {
+    body{
+        
+        margin: 0;
+        padding: 0;
+       
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #logo1{
+        margin-left: -50px;
+        width: 120px;
+    }
+    #logo2{
+        width: 80px;
+    }
+    nav{
+        position: relative;
+    }
+    nav ul{
+        display: inline-flex;
+        margin-left: -10px;
+        margin-top: 20px; 
+        margin-right: -40px;
+    }
+    nav ul li a{
+        font-size: 10px;
+        text-decoration: none;
+        color:rgb(26, 13, 13);
+    }
+    h2{
+        
+        font-size: 15px;
+        color: rgb(45, 166, 236);
+        padding-right: 10px;
+        margin-top: -100px;
+    }
+    .productos{
+        margin-top: -20px;
+        
+        padding-left: 5px;
+        padding-right: 10px;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 20px;
+        /* display: flex; */   
+    }
+    .productos article{
+        height: 240px;
+    
+    }
+    .productos article p{
+        font-size: 6px;
+    }
+    /* .productos article img{
+        width: 100%;
+        margin:0;
+    } */
+    .productos article a{
+        
+        font-size: 6px;
+        text-decoration: none;
+    }
+    footer{
+       
+        
+        width: 100%;
+        margin-top: 10px;
+        background-color: rgb(26, 13, 13);
+    }
+    
+    #ramiro{
+        float:inline-end;
+        font-size: 6px;
+       
+        color: rgb(55, 192, 226);
+        padding-right: 180px;
+    }
+    
+    #insumos{
+        margin-left: 20px;
+        font-size: 6px;
+        padding-left: 100px;
+        color: rgb(55, 192, 226);
+    }
+}

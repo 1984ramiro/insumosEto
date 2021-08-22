@@ -1,0 +1,367 @@
+body{
+    margin: 0%;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding-bottom: 100px;
+    
+}
+
+
+
+div img{
+    margin: 10px;
+}
+
+ #logo1{
+    width: 25%;
+    display:inline-block;
+    padding-left: 120px;
+
+}
+
+
+
+ul{
+    display:initial;
+    list-style: none;
+    
+    float: right;
+    padding-right: 150px;
+    margin-top:40px;
+} 
+
+li{
+    display: inline-block;
+    font-size: 15px;
+
+    text-decoration: none;
+    font-family: Arial;
+    
+}
+
+li a{
+    text-decoration-line: none;
+    color:rgb(26, 13, 13);
+    padding-left: 15px;
+}
+
+li a:hover{
+    color: rgb(55, 192, 226)
+}
+
+
+/* FORMULARIO */
+
+section{
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.clear{
+    max-width: 980px;
+    width: 96%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+.content h1{
+    
+    font-size: 20px;
+    
+    margin: 10px 0 30px;
+}
+#h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(45, 166, 236);
+}
+
+/* lado izquierdo */
+
+.wleft{
+    float: left;
+    display: block;
+}
+.content h2{
+    font-size: 26px;
+    color: rgb(45, 166, 236);;
+    margin: 20px 0 10px;
+}
+
+label{
+    font-size: 20px;
+    margin: 20px 0 10px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+input{
+    border: none;
+    background: #e1e1e1;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    border-radius: 10px;
+    font-family: arial,helvetica,sans-serif;
+}
+
+select{
+    border: none;
+    background: #e1e1e1;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    border-radius: 10px;
+    font-family: arial,helvetica,sans-serif;
+}
+
+textarea{
+    border: none;
+    background: #e1e1e1;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    border-radius: 10px;
+    font-family:arial,helvetica,sans-serif;
+}
+
+.submit {
+    background: #32b84a;
+    cursor: pointer;
+    color: #FFF;
+    width: 80px;
+    float: right;
+    margin: 15px 0 0 0;
+}
+
+/* lado derecho */
+
+.wright{
+    float: right;
+    width: 48%;
+}
+
+.wright p {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 55px 0 0 0;
+}
+
+strong{
+    font-size: 20px;
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'arial';
+}
+
+strong img{
+    position: relative;
+    right: 10px;
+    top:20px;
+}
+
+#mail{
+    text-decoration-line: none;
+}
+
+
+/* pie de página */
+
+footer{
+    margin-bottom: -10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(26, 13, 13);
+}
+
+#ramiro{
+    float: right;
+    color: rgb(55, 192, 226);
+}
+
+#insumos{
+    padding-left: 20px;
+    color: rgb(55, 192, 226);
+}
+
+@media screen and (max-width:476px) {
+    body{
+        margin: 0;
+        padding: 0;
+       
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #logo1{
+        margin-left: -100px;
+        width: 120px;
+    }
+    #logo2{
+        width: 80px;
+    }
+    /* nav{
+        position: relative;
+    } */
+    
+    nav ul{
+        
+        display: inline-flex;
+        margin-left: -10px;
+        margin-top: 20px;
+        margin-right: -40px;
+        
+    }
+    
+    nav ul li{
+        font-size: 8px;
+        padding: 4px;
+        /* float: right; */
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color:rgb(26, 13, 13);
+    }
+    
+    li a:hover{
+        color: rgb(55, 192, 226)
+    }
+    section{
+        padding-top: 20px;
+        padding-bottom: 200px;
+    }
+    
+    .clear{
+        max-width: 980px;
+        width: 96%;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .content h1{
+        
+        font-size: 10px;
+        
+        margin: 10px 0 30px;
+    }
+    #h1{
+        text-align: center;
+        font-size: 15px;
+        color: rgb(45, 166, 236);
+    }
+    .wleft{
+        float: left;
+        display: block;
+    }
+    .content h2{
+        font-size: 15px;
+        color: rgb(45, 166, 236);;
+        margin: 20px 0 10px;
+    }
+    
+    label{
+        font-size: 10px;
+        margin: 20px 0 10px;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    
+    input{
+        border: none;
+        background: #e1e1e1;
+        display: block;
+        width: 100%;
+        font-size: 10px;
+        color: #000;
+        border-radius: 10px;
+        font-family: arial,helvetica,sans-serif;
+    }
+    
+    select{
+        border: none;
+        background: #e1e1e1;
+        display: block;
+        width: 100%;
+        font-size: 10px;
+        color: #000;
+        border-radius: 10px;
+        font-family: arial,helvetica,sans-serif;
+    }
+    
+    textarea{
+        border: none;
+        background: #e1e1e1;
+        display: block;
+        width: 100%;
+        font-size: 10px;
+        color: #000;
+        border-radius: 10px;
+        font-family:arial,helvetica,sans-serif;
+    }
+    
+    .submit {
+        background: #32b84a;
+        cursor: pointer;
+        color: #FFF;
+        width: 80px;
+        float: right;
+        margin: 15px 0 0 0;
+    }
+    .wright{
+        float: left;
+        width: 48%;
+    }
+    
+    .wright p {
+        font-size: 15px;
+        line-height: 26px;
+        margin: 55px 0 0 0;
+    }
+    
+    strong{
+        font-size: 10px;
+        display: block;
+        margin: 10px 0 5px;
+        font-family: 'arial';
+    }
+    
+    strong img{
+        position: relative;
+        right: 10px;
+        top:20px;
+    }
+    
+    #mail{
+        text-decoration-line: none;
+    }
+    footer{
+        width: 100%;
+        margin-top: 10px;
+        background-color: rgb(26, 13, 13);
+    }
+    
+    #ramiro{
+        float:inline-end;
+        font-size: 6px;
+       
+        color: rgb(55, 192, 226);
+        padding-right: 180px;
+    }
+    
+    #insumos{
+        margin-left: 20px;
+        font-size: 6px;
+        padding-left: 100px;
+        color: rgb(55, 192, 226);
+    }
+}
